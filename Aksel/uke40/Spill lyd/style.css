@@ -1,0 +1,12 @@
+body {
+    background-image: url("bilder/bakgrunn.jpg");
+    background-size: 100% 1050%
+}
+
+button {
+    position: relative;
+    font-size: 2em;
+    margin: 5px;
+    left: 38%;
+    border-radius: 10px;
+}

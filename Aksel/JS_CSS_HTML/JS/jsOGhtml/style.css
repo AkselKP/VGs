@@ -1,0 +1,16 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    text-align: center;
+    transition: 1s;
+}
+#overskrift {
+    color: blue;
+}
+
+#minFarge {
+    font-size: 2em;
+    border-radius: 5px;
+}

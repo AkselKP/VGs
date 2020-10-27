@@ -1,0 +1,73 @@
+header h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: arial;
+}
+
+header p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main article {
+    font-family: arial;
+    font-size: 3em;
+}
+
+div {
+    border: 3px solid black;
+    margin-bottom: 8px;
+    margin-right: 8px;
+    float: left;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.ikke-metallisk {
+    background-color: green;
+}
+
+.edelgass {
+    background-color: skyblue;
+}
+
+.alkalimetaller {
+    background-color: orange;
+}
+
+.jordalkalimetaller {
+    background-color: yellow;
+}
+
+.halogener {
+    background-color: blue;
+}
+
+#dagens-grunnstoff {
+    font-weight: bold;
+    background-color: grey;
+    color: white;
+}
+
+table {
+    margin: 5px;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-b1b0{background-color:#888787;border-color:inherit;color:#ffffff;text-align:left;vertical-align:top}
+.tg .tg-imp6{background-color:#2d9b08;border-color:inherit;color:black;font-family:Arial, Helvetica, sans-serif !important;;
+  font-size:14px;text-align:left;vertical-align:top}
+.tg .tg-et9t{background-color:#14ccec;border-color:inherit;color:black;font-family:Arial, Helvetica, sans-serif !important;;
+  font-size:14px;text-align:left;vertical-align:top}
+.tg .tg-b8f8{background-color:#f8a102;border-color:inherit;color:black;font-family:Arial, Helvetica, sans-serif !important;;
+  font-size:14px;text-align:left;vertical-align:top}
+.tg .tg-im0q{background-color:#fcff2f;border-color:inherit;color:black;text-align:left;vertical-align:top}
+.tg .tg-jbzf{background-color:#3531ff;border-color:inherit;color:black;text-align:left;vertical-align:top}

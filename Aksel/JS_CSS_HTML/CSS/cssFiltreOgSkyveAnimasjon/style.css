@@ -1,0 +1,36 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: orange;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    width: 600px;
+    position: absolute;
+    transition: 2s;
+}
+
+#net1 {
+    filter: drop-shadow(200px -50px 2px);
+   /* box-shadow: 10px 10px 2px black; */
+}
+
+#net2 {
+    filter: drop-shadow(-200px -50px 2px);
+}
+
+main:active #net1 {
+    filter: drop-shadow(-150px -50px 2px);
+}
+
+main:active #net2 {
+    filter: drop-shadow(150px -50px 2px);
+}
+

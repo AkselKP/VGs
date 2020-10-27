@@ -1,0 +1,152 @@
+html {
+    font-family: sans-serif;
+    font-size: 1.05em;
+    color: black;
+}
+
+body {
+    width: 99%;
+    height: 100vh;
+    background: #e6e6e6;
+}
+
+.box {
+    width: 100%;
+    height: 80px;
+    background-image: linear-gradient(to left, #0f0080, blue, #0f0080);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    color: white;
+  }
+
+  .box h1 {
+      font-size: 3em;
+      position: absolute;
+      left: 30px;
+      margin: 10px;
+  }
+
+    .box h1:hover {
+        transform: scale(1.2);
+    }
+  .box p {
+      font-size: 2em;
+      position: absolute;
+      left: 140px;
+      margin: 5px;
+      padding: 15px;
+      word-spacing: 15px;
+  }
+
+  a {
+      text-decoration: none;
+      color: white;
+  }
+
+  article .artikkel1 figure {
+      position: absolute;
+      font-size: 1.5em;
+      text-decoration: none;
+      color: black;
+      text-align: center;
+      left: 26.4%;
+      top: 47%;
+      transform: translate(-50%, -50%);
+      background: white;
+      border: 3px solid white;
+  }
+  
+  article .artikkel2 figure {
+    position: absolute;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    left: 68.4%;
+    top: 47%;
+    transform: translate(-50%, -50%);
+    background: white;
+    border: 3px solid white;
+}
+
+article .artikkel4 a  {
+    position: absolute;
+    font-size: 2em;
+    text-decoration: none;
+    color: red;
+    text-align: center;
+    left: 59.3%;
+    top: 89%;
+    transform: translate(-50%, -50%);
+    background: white;
+    border: 3px solid white;
+    letter-spacing: 2px;
+}
+
+article .artikkel3 a {
+    position: absolute;
+    top: 87%;
+    left: 27.5%;
+    transform: translate(-50%, -50%);
+    color: red;
+    background: white;
+    font-size: 3em;
+    letter-spacing: 1.30px;
+    word-spacing: 5px;
+}
+
+.reklame img {
+    position: absolute;
+    top: 82%;
+    left: 69%;
+
+}
+
+  article figure:hover {
+    border: 3px solid black;
+}
+article a:hover {
+    border: 3px solid black;
+    
+}
+
+  .box a:hover {
+      border-bottom: 3px solid red;
+  }
+
+  header nav p:hover {
+    transform: scale(1.1); 
+  }
+
+   header p{
+     position: absolute;
+     font-size: 0.75em;
+     left: 95%;
+     color: white;
+}
+
+.box2 {
+    width: 100%;
+    height: 120px;
+    background: #404040;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    color: white;
+  }
+
+footer h2 {
+    text-align: center;
+}
+
+footer p {
+    font-size: 1.15em;
+    word-spacing: 3px;
+    text-align: center;
+}
+
+
+
+
+

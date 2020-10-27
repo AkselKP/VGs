@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="nb">
+    <head>
+        <meta charset="UTF-8">
+        <!--Dette er ikonet til hjemmedsiden, kalt favicon-->
+        <link rel="icon" href="htmlFavicon.png">
+
+        <!--Her henter jeg en font fra nettet-->
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+
+        <!--Her linker jeg CSS filen min-->
+        <link rel="stylesheet" href="style.css">
+        <title>HTML:5</title>
+    </head>
+    <body>
+        <!--Semantisk HTML-->
+        <header> <!--Topp-->
+            <section>
+                <!--h1 står for headline 1, det finnes h1-h6-->
+                <h1>OVERSKRIFT</h1> 
+                <h2>H2 OVERSKRIFT</h2>
+
+                <!--p står for paragraph, og dersom du skal skrive noe er det vanlig at det står inne i et p-element-->
+                <p>Dette er et paragraph. Tekst skrives vanligvis inni et p-element.</p>
+
+                <!--nav står for navigation, altså inni her skal alle lenkene som er i header ligge-->
+                <nav>
+                    <a href="https://www.youtube.com/">youtube</a> <!--Alle lenker må ligge i et a-element-->
+                </nav>
+            </section>
+        </header>
+        <main> <!--Midt-->
+            <section> <!--Du kan legge inn class/id på så å si alle elementene.-->
+                <article class="artikkel"> <!--class brukes når det er fler av samme-->
+                    <div id="div"> <!--id brukes når det kun er 1-->
+
+                        <!--Dette er en knapp, for å få den til å funke må du bruke JS-->
+                        <button id="btnTest">Knapp</button>
+
+                        <!--Dette er et input felt-->
+                        <input type="text" id="inpTest"> 
+                    </div>
+                </article>
+            </section>
+        </main>
+        <footer> <!--Bunn-->
+            <article class="artikkel"> <!--Her er den samme class'en brukt igjen-->
+
+            </article>
+        </footer>
+        <script src="script.js"></script> <!--Her blir scriptet linket-->
+    </body>
+</html>

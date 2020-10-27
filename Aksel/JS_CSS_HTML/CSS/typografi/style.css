@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 16px;
+}
+h1, h2 {
+    margin-bottom: 32px;
+    text-align: center;
+}
+article {
+    column-count: 3;
+    column-gap: 32px;
+    column-rule: 1px solid black;
+}
+p {    
+    line-height: 1.6;
+    margin-bottom: 24px;
+    text-align: left;
+}
+
+p::first-letter {
+    font-size: 48px;
+    color: olive;
+    float: left;
+    line-height: 0.5;
+    padding-right: 4px;
+}

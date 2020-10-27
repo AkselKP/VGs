@@ -1,0 +1,50 @@
+/*#wrap {
+    max-width: 500px;
+    margin: auto;
+}  centers everything */
+
+body {
+    background-color: #eee;
+}
+
+table {
+    border: 4px solid black;
+    background: #e6c700;
+    border-radius: 5px;
+}
+
+.norsk {
+    background: skyblue;
+}
+
+.matte {
+    background: #bfbfbf;
+}
+
+.programmering {
+    background: darkorange;
+}
+
+.teknologi {
+    background: brown;
+}
+
+.gym {
+    background: blue;
+}
+
+.naturfag {
+    background: green;
+}
+
+.pogh {
+    background: red;
+}
+
+.yff {
+    background: purple;
+}
+
+.engelsk {
+    background: pink;
+}

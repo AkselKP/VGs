@@ -1,0 +1,16 @@
+body {
+    color: grey;
+    background: #0d0d0d;
+    background: linear-gradient(-40deg, #4d0000, #1a1919, #800000, #1a1919);
+    background-size: 200% 200%;
+}
+
+table, th, td {
+    border: 1px solid blue;
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+

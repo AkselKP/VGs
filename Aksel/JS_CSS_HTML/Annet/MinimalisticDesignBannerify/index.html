@@ -1,0 +1,68 @@
+<html>
+<head>
+	<title>Minimalistic</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="main.css">
+</head>
+<body class="no-js">
+	
+	<button class="replay-button" type="button" onClick="resetAnimations();"></button>
+	<div id="grid" class="grid">
+		<div class="col">
+			<div class="wrapper" style="width: 1920px; height: 1080px; background-color: #2f303a;">
+				<h6 class="heading"></h6>
+				<iframe
+					title="1920x1080 Sign Up"
+					width="1920"
+					height="1080"
+					src="homescreen/index.html"
+					frameBorder="0"></iframe></div>
+		</div>
+		<div class="col">
+			<div class="wrapper" style="width: 1920px; height: 1080px; background-color: #2f303a;">
+				<h6 class="heading"></h6>
+				<iframe
+					title="1920x1080 Feature"
+					width="1920"
+					height="1080"
+					src="discover/index.html"
+					frameBorder="0"></iframe></div>
+		</div>
+		<div class="col">
+			<div class="wrapper" style="width: 1920px; height: 1080px; background-color: #2f303a;">
+				<h6 class="heading"></h6>
+				<iframe
+					title="1920x1080 Homescreen"
+					width="1920"
+					height="1080"
+					src="signUp/index.html"
+					frameBorder="0"></iframe></div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		document.body.className = "js";
+	</script><script type="text/javascript" src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+	<script type="text/javascript">
+		if (window.Masonry) {
+			var elem = document.getElementById("grid");
+			var msnry = new Masonry(elem, {
+				itemSelector: ".col",
+				gutter: 20
+			});
+		}
+	</script>
+	<script type="text/javascript">
+		function resetAnimations() {
+			var frames = document.getElementsByTagName('iframe');
+			for (var i in frames) {
+				var frame = frames[i];
+				if (typeof frame === "object") {
+					var cloned = frame.cloneNode(true);
+					frame.parentNode.replaceChild(cloned, frame);
+				}
+			}
+		}
+	</script>
+	
+</body>
+</html>

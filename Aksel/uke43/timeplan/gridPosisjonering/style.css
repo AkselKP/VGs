@@ -1,0 +1,73 @@
+body {
+    background-color: salmon;
+}
+
+.g-table {
+    height: 700px;
+    display: grid;
+    grid-template-columns: 600px 600px;
+    grid-template-rows: 440px 260px;
+    grid-gap: 0;
+    grid-column-gap: 180px;
+    justify-content: center;
+}
+
+.g-plate {
+    background-color: lightpink;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+img {
+    width: 540px;;
+    height: 290px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+
+p {
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+table {
+    border: 4px solid black;
+    background: #e6c700;
+    font-size: 1.1rem;
+}
+
+.norsk {
+    background: skyblue;
+}
+
+.matte {
+    background: #bfbfbf;
+}
+
+.programmering {
+    background: darkorange;
+}
+
+.teknologi {
+    background: brown;
+}
+
+.gym {
+    background: blue;
+}
+
+.naturfag {
+    background: green;
+}
+
+.pogh {
+    background: red;
+}
+
+.yff {
+    background: purple;
+}
+
+.engelsk {
+    background: pink;
+}

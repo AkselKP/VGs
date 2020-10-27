@@ -1,0 +1,33 @@
+body {
+    background-color: #eee;
+    color: #fff;
+}
+
+.c-plate {
+    width: 90px;
+    height: 90px;
+    background-color: orange;
+    border: 2px solid black;
+    margin: 3px;
+    padding: 3px;
+  }
+
+  .c-table {
+    text-align: center;
+    border: black solid 1px;
+    font-size: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 785px;
+  }
+
+  .salmon {
+    align-self: flex-start;
+  }
+
+  .kebab {
+    align-self: flex-end;
+  }
+

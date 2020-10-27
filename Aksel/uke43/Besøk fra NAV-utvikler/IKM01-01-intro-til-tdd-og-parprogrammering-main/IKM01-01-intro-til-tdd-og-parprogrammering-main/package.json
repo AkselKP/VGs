@@ -1,0 +1,27 @@
+{
+  "name": "intro-til-tdd-og-parprogrammering",
+  "version": "1.0.0",
+  "description": "En introduksjon til testdrevet utvikling og parprogrammering",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "ava -v",
+    "watch:test": "ava -w -v",
+    "setup": "npm i",
+    "refresh": "rm -rf node_modules && rm package-lock.json && npm i"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zrrrzzt/IKM01-01-intro-til-tdd-og-parprogrammering.git"
+  },
+  "keywords": [],
+  "author": "Geir Gåsodden <geir.gasodden@pythonia.no> (https://github.com/zrrrzzt)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zrrrzzt/IKM01-01-intro-til-tdd-og-parprogrammering/issues"
+  },
+  "homepage": "https://github.com/zrrrzzt/IKM01-01-intro-til-tdd-og-parprogrammering#readme",
+  "devDependencies": {
+    "ava": "3.13.0"
+  }
+}

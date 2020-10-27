@@ -1,0 +1,17 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: slateblue;
+}
+
+#sky {
+    position: fixed;
+    top: 200px;
+    left: -350px;
+}
+
+.gigantisk {
+    height: 3000px;
+}

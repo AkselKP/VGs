@@ -1,0 +1,34 @@
+@keyframes fallNed {
+    from {
+        top: 10px;
+        background-color: yellow;
+    }
+    to {
+        top: 900px;
+        background-color: red;
+    }
+}
+
+#brett {
+    position: relative;
+    width: 800px;
+    height: 1000px;
+    margin: auto;
+    background-color: #eee;
+}
+
+#boks {
+    position: absolute;
+    width: 200px;
+    height: 80px;
+    background-color: magenta;
+    left: 300px;
+    top: 10px;
+    /*animation-name: fallNed;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 2;
+    animation-direction: alternate; */
+    animation: fallNed 4s forwards 2 alternate; /*gjør det samme som over*/
+}
+

@@ -1,0 +1,30 @@
+#bildeDiv {
+    position: relative;
+    text-align: center;
+    font-size: 2em;
+}
+
+button {
+    position: relative;
+    left: 35.8%;
+    border: 5px solid grey;
+    border-radius: 10px;
+    font-size: 2em;
+    background-color: black;
+    color: white;
+    margin: 10px;
+}
+
+button:hover {
+    transform: scale(1.2);
+    border: 5px solid red;
+    border-radius: 10px;
+}
+
+button:focus {
+    border: 5px solid grey;
+    border-radius: 10px;
+    background-color: black;
+    color: red;
+}
+
