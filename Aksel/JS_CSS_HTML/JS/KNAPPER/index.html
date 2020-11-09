@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="nb">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <title>KNAPPER </title>
+    </head>
+    <body>
+        <h1>KNAPPER (ÅPNE KONSOLL)</h1>
+        <!--For å lage en knapp i HTML bruker vi <button> tagget, sånn her-->
+        <button>Knapp1(gjør ingenting)</button>
+        <!--Men ofte vil vi ha fler knapper på en side så derfor er det smart å gi knappen enten en class eller id, slik-->
+        <button id="btnKnapp2">Knapp2(gjør ingenting)</button><br>
+        <!--Knappene over gjør nå ingenting når de blir klikket. Dersom vi vil de skal gjøre noe har vi fler metoder.-->
+
+        <!--METODE 1-->
+        <!--Her bruker jeg " onclick="funksjon()" ". Som du sikkert forstår betyr onclick altså onclick, og da kan du skrive inn at for eksempel funksjonen din print() skal kjøre. Det vil funke så lenge du har en funksjon kalt print() i scriptet-->
+        <button id="btnKnapp3" onclick="print()">Knapp3(klikk meg)</button>
+
+        <!--METODE 2-->
+        <!--I denne metoden vil jeg bruke kun javascript, gå til script.js filen og finn "METODE 2"-->
+        <button id="btnKnapp4">Knapp4(klikk meg)</button>
+
+        <!--METODE 3-->
+        <!--I denne metoden vil jeg bruke kun javascript, gå til script.js filen og finn "METODE 3"-->
+        <button id="btnKnapp5">Knapp5(klikk meg)</button><br>
+
+        <!--BONUS-->
+        <!--Dersom du vil skrive ut noe på HTML siden din bør du bruke noe som er kalt "innerHTML" Da lager du en div der du vil ha teksten, som for eksempel-->
+        <button id="btnTxt">Skriv tekst</button>
+        <div id="txtDiv"></div>
+
+        <script src="script.js"></script>
+    </body>
+</html>

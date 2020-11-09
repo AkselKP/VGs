@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+  <html lang="nb">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>CSS Grid</title>
+  </head>
+  <body>
+   <!--Column er bortover
+    Row er nedover  
+    
+    display: grid; !!!VIKTIG!!!
+    grid-template-colums: x x...; hvor mange kolonner vil du ha? (bortover) kan bruke repeat her
+    grid-template-rows: x x...; hvor mange rader vil du ha? (nedover) 
+    grid-auto-rows: x x...; 
+
+    HORIZONTAL POSISJONERING:
+    justify-items: center; Centers each item within the cell
+    du kan bruke: center, end, start, og default er stretch
+
+    VERTICAL POSISJONERING:
+    align-items: center; Centers each item within the grid cell
+    du kan bruke: center, end, start, og default er stretch
+
+    CELL POSISJONERING:
+    justify-content: center; Flytter alle til horisontale midten
+    align-content: center; Flytter alle til vertikale midten
+
+    GAP:
+    grid-column-gap: x;
+    grid-row-gap: x;
+    ELLER
+    grid-gap: rowX columnX;
+
+    CHILD ELEMENTS:
+     grid-column-start: 1; Hvor den starter bortover
+     grid-column-end: 3; Hvor den slutter bortover
+
+      grid-row-start: 1; Hvor den starter nedover
+      grid-row-end: 3; Hvor den slutter nedover
+
+      DU KAN OGSÅ BRUKE:
+      grid-column: startX / sluttX;
+      grid-row: startY / sluttY;
+      OG:
+      span x; span betyr hvor mange ganger du vil den skal gå i enten rows eller columns. Altså span 2 betyr at den går 2 rows/columns.
+      ELLER:
+      grid-area: rowStart / columnStart / rowEnd / columnEnd
+
+      z-index: 1; Z-INDEX BESTEMMER HVEM SOM LIGGER OPPÅ HVEM
+
+      Dersom du ikke oppgir grid-column-start antar den du vil starte på 1
+
+    fr=fraction
+    auto = 
+    repeat(how many times do you want to repeat?, size)
+    -->
+
+    <div class="grid-container">
+      <div class="grid-item item1">
+        item 1
+      </div>
+      <div class="grid-item item2">
+        item 2
+      </div>
+      <div class="grid-item item3">
+        item 3
+      </div>
+      <div class="grid-item item4">
+        item 4
+      </div>
+    </div>
+  </body>
+</html>

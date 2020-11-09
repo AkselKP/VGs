@@ -1,0 +1,62 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #808080;
+    margin: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 0.9rem;
+}
+
+.wrap {
+    width: 690px;
+    height: 930px;
+    background-color: orange;
+    border: 2px solid black;
+    margin: 3px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 3px;
+  }
+
+  .boks {
+    border: black solid 1px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 945px;
+  }
+
+  .weatherRecords {
+      width: auto;
+      height: 70vh;
+      padding: 20px;
+      background-color: #eee;
+      border: 2px solid black;
+      border-radius: 10px;
+    
+  }
+
+  .weatherNorway {
+    align-self: flex-start;
+  }
+
+  .boksTo {
+      align-self: flex-end;
+  }
+
+
+
+
+
+
