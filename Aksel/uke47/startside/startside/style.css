@@ -1,0 +1,413 @@
+@keyframes test1{
+    from {
+        top: -50%;
+    }
+    to {
+        top: 180%
+    }
+}
+
+@keyframes test2{
+    from {
+        top: -5%;
+    }
+    to {
+        top: 110%
+    }
+}
+
+@keyframes test3{
+    from {
+        top: -8%;
+    }
+    to {
+        top: 110%
+    }
+}
+
+html {
+    background-color: #2F303A;
+    font-size: 16px;
+    font-family: sans-serif;
+
+}
+
+body {
+    margin: 5px;
+    overflow: hidden;
+}
+
+.container {
+    border: 4px double lightgrey;
+    position: absolute;
+    width: 350px;
+    height: 600px;
+    background-color: #eee;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 10px 2px black; 
+}
+
+
+.animation {
+  /* border: 3px solid red; */  
+    width: 30%;
+    height: 700px;
+    opacity: 0;
+}
+
+.blocks img {
+    width: 20%;
+}
+
+/*Diamonds*/
+#diamond1 {
+    position: absolute;
+    width: 5%;
+    left: 15%;
+    top: 2%;
+}
+
+#diamond2 {
+    position: absolute;
+    width: 5%;
+    left: 15%;
+    top: 80%;
+}
+
+
+/*Stone*/
+#stone1 {
+    position: absolute;
+    width: 5%;
+    left: 23%;
+    top: 3%;
+}
+
+#stone2 {
+    position: absolute;
+    width: 5%;
+    left: 15%;
+    top: 18%;
+}
+
+#stone3 {
+    position: absolute;
+    width: 5%;
+    left: 11%;
+    top: 33%;
+}
+
+#stone4 {
+    position: absolute;
+    width: 5%;
+    left: 21%;
+    top: 40%;
+}
+
+#stone5 {
+    position: absolute;
+    width: 5%;
+    left: 13%;
+    top: 61%;
+}
+
+#stone6 {
+    position: absolute;
+    width: 5%;
+    left: 23%;
+    top: 74%;
+}
+
+
+/*Wood*/
+#wood1 {
+    position: absolute;
+    left: 7%;
+    top: 0%;
+    width: 5%;
+}
+
+#wood2 {
+    position: absolute;
+    left: 23%;
+    top: 23%;
+    width: 5%;
+}
+
+#wood3 {
+    position: absolute;
+    left: 8%;
+    top: 15%;
+    width: 5%;
+}
+
+#wood4 {
+    position: absolute;
+    left: 7%;
+    top: 48%;
+    width: 5%;
+}
+
+#wood5 {
+    position: absolute;
+    left: 20%;
+    top: 60%;
+    width: 5%;
+}
+
+#wood6 {
+    position: absolute;
+    left: 6%;
+    top: 70%;
+    width: 5%;
+}
+
+.container2 {
+    padding: 5px;
+}
+
+header h1 {
+    font-size: 36px;
+   position: absolute;
+   margin-top: 0;
+  top: 24px; 
+   color: #39e600;
+   left: 68px; 
+}
+
+header img {
+    width: 100%;
+}
+
+header nav {
+    font-size: 18px;
+    position: absolute;
+   top: 59px;
+   color: #fff;
+   left: 140px;
+}
+
+header a {
+    color: #39e600;
+    text-decoration: none;
+}
+
+header a:hover {
+    border-bottom: 2px solid #79ff4d;
+    transition: 0.2s ease;
+    color: #79ff4d;
+}
+
+h2 {
+    padding: 0;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    text-align: center;
+}
+
+ul {
+    margin: 0;
+    padding-left: 120px;
+    font-size: 16px;
+}
+
+main a {
+    text-decoration: none;
+}
+
+/*main a:hover {
+    color: blue;
+    border-bottom: 2px solid blue; /*#551a8b;*/
+    /*transition: 0.2s ease;
+} */
+
+main a figcaption:hover {
+    color: blue;
+    border-bottom: 2px solid blue;
+    transition: 0.2s ease;
+}
+
+main a img:hover {
+    transform: scale(1.1);
+    transition: 0.2s ease;
+}
+button {
+    background-color: transparent;
+    position: absolute;
+    z-index: 1;
+    left: 11px;
+    top: 16px;
+}
+
+main #kor p {
+    font-weight: bold;
+    padding: 10px;
+    padding-top: 0px;
+    font-size: 14px;
+}
+main #kor figcaption {
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+main #kor {
+    position: relative;
+    font-size: 12px;
+    margin-left: 0px;
+    margin-right: 10px;
+    margin-top: 20px;
+    background-color: #d2a679;
+    border: 2px solid #996633;
+    width: 150px;
+    height: 120px;
+    text-align: center;
+    border-radius: 10%;
+    float: right;
+}
+main #kor img {
+    position: absolute;
+    width: 80px;
+    height: 60px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+main #sax figcaption {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  main #sax {
+      position: relative;
+      font-size: 12px;
+      margin-left: 10px;
+      margin-top: 20px;
+      background-color: #d2a679;
+      border: 2px solid #996633;
+      width: 150px;
+      height: 120px;
+      text-align: center;
+      border-radius: 10%;
+      float: left;
+  }
+  main #sax img {
+      position: absolute;
+      width: 80px;
+      height: 60px;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+  }
+  main #sax p {
+    font-weight: bold;
+    padding: 10px;
+    padding-top: 0px;
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 1400px) {
+    .animation {
+        opacity: 0;
+    }
+}
+
+@media only screen and (min-width: 650px) {
+    .container {
+        width: 580px;
+        height: 690px;
+    }
+    #volum img {
+        width: 40px;
+        height: 40px;
+    }
+    button {
+        background-color: red;
+        border-radius: 50%;
+        border: none;
+    }
+    header h1 {
+        font-size: 68px;
+        top: 40px;
+        left: 100px;
+    }
+    header nav {
+        font-size: 24px;
+        top: 105px;
+        left: 250px;
+    }
+    main h2 {
+        font-size: 32px;
+    }
+    main #kor p {
+        font-weight: bold;
+        padding: 10px;
+        padding-top: 0px;
+        font-size: 24px;
+    }
+    main #kor figcaption {
+      position: absolute;
+      top: 85%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+    }
+    main #kor {
+        position: relative;
+        font-size: 18px;
+        margin-left: 50px;
+        margin-right: 30px;
+        margin-top: 20px;
+        background-color: #d2a679;
+        border: 2px solid #996633;
+        width: 240px;
+        height: 200px;
+        text-align: center;
+        border-radius: 10%;
+        float: right;
+    }
+    main #kor img {
+        position: absolute;
+        width: 150px;
+        height: 100px;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    main #sax figcaption {
+        position: absolute;
+        top: 85%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+      }
+      main #sax {
+          position: relative;
+          font-size: 18px;
+          margin-left: 30px;
+          margin-top: 20px;
+          background-color: #d2a679;
+          border: 2px solid #996633;
+          width: 240px;
+          height: 200px;
+          text-align: center;
+          border-radius: 10%;
+          float: none;
+      }
+      main #sax img {
+          position: absolute;
+          width: 150px;
+          height: 100px;
+          left: 50%;
+          top: 50%;
+          transform: translate(-50%, -50%);
+      }
+      main #sax p {
+        font-weight: bold;
+        padding: 10px;
+        padding-top: 0px;
+        font-size: 24px;
+    }
+}
+

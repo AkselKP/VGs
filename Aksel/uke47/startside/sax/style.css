@@ -1,0 +1,114 @@
+
+body{
+    background-color: #cca300;
+    font-family: verdana, sans-serif;
+
+}
+main{
+    width: 80%;
+    margin:auto;   
+    padding: 2%;
+}
+
+#mannekor {
+    width: 95%;
+}
+
+#saxofon {
+    width: 90%;
+}
+
+#saxofoner {
+    width: 100%;
+}
+
+.overskrift{
+    font-size: 3em;  /* 3 ggr større enn fontstørrelse i element */
+    padding: 0;
+    margin: 0;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+.bilderOgTekst{           /*dette er teksten oppe til venstre... + bilde*/
+    overflow: auto;        
+    width: 400px;    
+    margin: 0%;
+    font-size: 16px;
+}
+
+.tekstOppeVenstre {
+    float: left;
+    margin-right: 100px;
+}
+
+figcaption {
+    padding-right: 10px;
+    margin-right: 100px;
+    margin-top: 25px;
+}
+
+.tabellNedeVenstre{                /*dette er tabellen nede til venstre*/
+    overflow: auto;
+    padding:2px;
+    margin-top:2%;
+    margin-left:0%;
+    width: 580px;
+}
+
+img {
+    background-color: white;
+ }
+
+table, th, td, tr{
+    border: 2px double black;
+}
+
+tr, td {
+    padding: 2%;
+}
+
+table{
+    margin: 1%;
+    width: 540px;
+    background-color: #ffcc00;
+    font-size: 16px;
+}
+
+
+.boks{                  /*dette er boksen med de forskjellige saxofonene og bildet - oppe høyre*/
+    border: 4px dotted black;
+    border-radius: 2%;  
+    background-color: #ffcc00;
+}
+
+.flytVenstre{           /*float:left gjør at elementet som følger legger seg til høgre for det elementet som er 'floata'*/
+    overflow: auto;
+    width: 240px;
+    padding: 4%;
+    margin: 1%;        
+    margin-top:3%;         
+}
+
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+    .tekstOppeVenstre {
+        width: 400px;
+    }
+    .tabellNedeVenstre {
+        width: 390px;
+        padding: 0%;
+        margin: 0%;
+    }
+    .boks {
+        width: 350px;
+    }
+  }
+
+  
+
+
+
+
+
+

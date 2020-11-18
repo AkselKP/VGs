@@ -103,6 +103,29 @@ table{
     font-size: 14px;
 }
 
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+    .tekstOppeVenstre {
+        width: 400px;
+    }
+    .høyre {
+        float: left;
+        width: 300px;
+    }
+    .venstre {
+        width: 300px;
+    }
+  }
+  @media screen and (max-width: 620px) {
+  .boks {
+    width: 360px;
+   
+    }
+  }
+  
+
+
+
 
 
 

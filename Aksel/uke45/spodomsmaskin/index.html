@@ -11,10 +11,15 @@
             <input id="inpNavn" type="text" value="Navn" onfocus="this.value=''"><br>
             <input id="inpAlder" type="text" value="Alder" onfocus="this.value=''"><br>
             <input id="inpHeight" type="text" value="Høyde" onfocus="this.value=''"><br>
-            <input type="radio" id="inpMann" name="gender" value="Mann">
-            <label for="inpMann">Mann</label> <br>
-            <input type="radio" id="inpKvinne" name="gender" value="Kvinne">
-            <label for="inpKvinne">Kvinne</label><br>
+            <form>
+                <fieldset>
+                        <legend>Kjønn:</legend>
+                        <input type="radio" id="inpMann" name="gender" value="Mann">
+                        <label for="inpMann">Mann</label> <br>
+                        <input type="radio" id="inpKvinne" name="gender" value="Kvinne">
+                        <label for="inpKvinne">Kvinne</label><br>
+                </fieldset>
+            </form>
             <button id="btnStart">SE DIN SPÅDOM</button>
             <div id="txtDiv"></div> 
         </section>

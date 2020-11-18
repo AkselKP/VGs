@@ -14,6 +14,14 @@ h1 {
     font-size: 2rem;
 }
 
+fieldset {
+    border: 0;
+}
+
+legend {
+    display: none;
+}
+
 #txtDiv {  
     justify-content: center;
     padding: 15px;
