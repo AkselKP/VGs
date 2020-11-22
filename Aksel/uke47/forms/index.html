@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="nb">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="bilder/favicon.jpg">
+        <title>Forms</title>
+    </head>
+    <body>
+    <main>
+        <form>
+            <fieldset class="info">
+                <legend>Fyll inn informasjon:</legend>
+                <label for="fname">Fornavn:</label><br>
+                <input type="text" id="fname" name="fname" placeholder="Skriv inn fornavn"><br>
+                <label for="lname">Etternavn:</label><br>
+                <input type="text" id="lname" name="lname" placeholder="Skriv inn etternavn"><br>
+                <br>
+                <label for="bday">Fødselsdato:</label><br>
+                <input type="date" id="bday" name=bday>
+            </fieldset>
+            <fieldset class="programOmrade">
+                <legend>Velg programområde:</legend>
+                <input type="radio" id="IKTM" name="linje" value="IKTM">
+                <label for="IKTM">Informasjonsteknologi og medieproduksjon</label><br>
+                <input type="radio" id="FBIE" name="linje" value="FBIE">
+                <label for="FBIE">Frisør, blomst, interiør og eksponering</label><br>
+                <input type="radio" id="TIP" name="linje" value="TIP">
+                <label for="TIP">Teknologi- og industrifag</label><br>
+            </fieldset>
+            <fieldset class="fag">
+                <legend>Velg fag:</legend>
+                <input type="checkbox" id="norsk" name="norsk" value="norsk">
+                <label for="norsk"> Norsk</label><br>
+                <input type="checkbox" id="matte" name="matte" value="matte">
+                <label for="norsk"> Matematikk</label><br>
+                <input type="checkbox" id="engelsk" name="engelsk" value="engelsk">
+                <label for="norsk"> Engelsk</label><br>
+            </fieldset>
+            <fieldset class="knapper">
+                <legend>Trykk på en av knappene:</legend><br>
+                <input type="submit" value="Send inn">
+                <input type="reset" value="Nullstill">
+                <input type="button" onclick="alert('Hello World!')" value="Trykk heller på meg">
+            </fieldset>
+        </form>
+    </main>
+    </body>
+</html>

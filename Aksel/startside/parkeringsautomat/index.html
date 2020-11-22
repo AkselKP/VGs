@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="nb">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <title>Parkeringsautomat</title>
+    </head>
+    <body>
+        <section>
+            <h1>Parkeringsautomat</h1>
+            <input type="radio" id="inpKort" name="betalingsMetode" value="10" checked="checked">
+            <label for="inpKort">Kort</label>
+            <input type="radio" id="inpKontanter" name="betalingsMetode" value="12">
+            <label for="inpKontanter">Kontanter</label>
+            <br>Oppgi timer: <input id="inpTimer" type="text" onchange="regnUt()"> 
+             <!-- "onchange" kjører regnUt() funksjonen når input feltet endrer seg-->
+            <div id="txtDiv"></div>
+            <img src="parkering.png" height=200>
+            <p>Pris per time med kort: 10kr. Pris per time med kontant: 12kr.</p>
+        </section>
+        
+        <script src="script.js"></script>
+    </body>
+</html>

@@ -7,24 +7,6 @@
     }
 }
 
-@keyframes test2{
-    from {
-        top: -5%;
-    }
-    to {
-        top: 110%
-    }
-}
-
-@keyframes test3{
-    from {
-        top: -8%;
-    }
-    to {
-        top: 110%
-    }
-}
-
 html {
     background-color: #2F303A;
     font-size: 16px;
@@ -34,7 +16,7 @@ html {
 
 body {
     margin: 5px;
-    overflow: hidden;
+    overflow: auto;
 }
 
 .container {
@@ -215,6 +197,35 @@ ul {
 
 main a {
     text-decoration: none;
+}
+
+.btnMer p {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.btnMer {
+    position: absolute;
+    left: 49%;
+    top: 58%;
+    transform: translate(-50%, 50%);
+    width: 30%;
+    height: 8%;
+    border-radius: 25%;
+    color: black;
+    font-weight: 550;
+    font-size: 32px;
+    background-color: #d2a679;
+    border: 2px solid #996633;
+    
+}
+
+.btnMer:hover {
+    border-radius: 0%;
+    border: 3px solid blue;
+    transition: 0.2s;
 }
 
 /*main a:hover {
