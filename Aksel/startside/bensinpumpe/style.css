@@ -1,0 +1,42 @@
+* {
+    font-family: sans-serif;
+}
+
+html {
+    background-color: #eee; 
+}
+
+button {
+    margin: 5px;
+    padding: 5px;
+    font-size: 22px;
+    border-radius: 5px;
+}
+
+input {
+    font-size: 16px;
+}
+
+section { 
+    background-color: #fff;
+    box-shadow: 2px 2px 10px;
+    text-align: center;
+    border: 2px solid lightgrey;
+    border-radius: 10px;
+    width: 330px;
+    height: 520px;
+    padding: 5px;
+    margin: 10px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+label {
+    font-size: 20px;
+}
+
+#inpDiesel, #inpBensin {
+    margin-bottom: 10px;
+}
