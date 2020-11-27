@@ -1,0 +1,76 @@
+* {
+  font-family: sans-serif;
+}
+
+body {
+  margin: 10px;
+  background-color: #eee;
+}
+
+h1 {
+  margin-bottom: 15px;
+  font-size: 2rem;
+}
+
+#txtDiv {  
+  justify-content: center;
+  padding: 15px;
+  margin-right: 10px;
+  margin-left: 10px;
+  font-size: 1.05rem;
+}
+
+#bil, #fly, #bussLandevei, #bussBy, #tog {
+  font-size: 14px;
+  height: 5%;
+  width: 10%;
+  max-width: 90%;
+  max-height: max-content;
+  background-color: salmon;
+  position: relative;
+  top: 10px;
+  left: 5px;
+  border: 2px solid red;
+  margin: 5px;
+}
+
+#bil, #fly, #bussLandevei, #bussBy, #tog span {
+  position: relative;
+  font-size: 18px;
+} 
+
+b {
+  float: right;
+}
+
+button {
+  border-radius: 5%;
+}
+
+button:hover {
+  border: 2px solid red;
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+
+div:hover {
+  transition: 0.3s;
+}
+
+
+input {
+  font-size: 18px;
+  margin-top: 5px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+
+button {
+  font-size: 1.8rem;
+  margin: 10px;
+}
+
+
+
+

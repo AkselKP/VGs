@@ -1,0 +1,159 @@
+* {
+    font-family: sans-serif;
+}
+
+html {
+    background-color: #eee;
+}
+
+body {
+    margin: 0;
+}
+
+header a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav {
+    width: 100%;
+    height: 13vh; /*Bedre metode for dette?*/
+    background-color: #0073e6;
+    padding: 2px;
+    color: #fff;
+}
+
+.overskrift {
+    font-weight: bold;
+    font-size: 24px;
+    padding: 20px;
+    padding-bottom: 50px;
+}
+
+.annet {
+    font-size: 20px;
+    padding: 0;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 35px;
+    float: right;
+}
+
+.annet:hover {
+    color: #ccc;
+    border-bottom: 3px solid #ccc;
+    transition: 0.2s;
+}
+
+.porsVgs {
+    float: left;
+    padding-left: 5px;
+    font-weight: bolder;
+}
+
+nav img {
+    float: left;
+    padding-top: 23px;
+    padding-left: 10px;
+    height: 50px;
+}
+
+nav h1 {
+    margin: 0;
+}
+
+.opningstider {
+    margin-right: 40px; 
+}
+
+#velkommen {
+    text-align: center;
+}
+
+main {
+    margin: 50px;
+    margin-right: 150px;
+    margin-left: 140px;
+}
+
+.hovedside {
+    position: relative;
+    background: #fff;
+    border: 2px solid lightgrey;
+    padding: 5px;
+    height: 420px;
+    width: 86.2%;
+    left: 70px;
+}
+
+.hovedside img {
+    float: left;
+}
+
+.hovedside h3{
+    margin-top: 5px;
+    font-size: 32px;
+}
+
+.hovedside .tjenester {
+   /* float: left;*/
+}
+
+.artikler  {
+    float: left;
+    margin: 20px;
+    background: #fff;
+    border: 2px solid lightgrey;
+    width: 25%;
+    min-width: 250px;
+    padding: 10px;    
+    transform: translateX(15%); /*Finn en bedre måte å sentere artiklene?*/
+}
+
+.artikler:hover {
+    border: 2px solid #999999;
+    transition: 0.4s;
+}
+
+.artikkel1 a{
+    text-decoration: none;
+}
+
+.artikkel1 img{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.overskrift2 {
+    font-size: 22px;
+    margin-bottom: 0;
+}
+
+.dato {
+    color: #4d4d4d;    
+    font-size: 14px;
+    margin-top: 0;
+}
+
+
+@media only screen and (max-width: 900px) {
+    #velkommen {
+        width: 400px;
+        transform: translateX(-12%);
+    }
+    .artikler {
+        width: 400px;
+        transform: translateX(-30%);
+    }
+}
+
+
+
+
+
+
+
+
+
+

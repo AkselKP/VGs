@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    background-color: #eee;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+#game {
+    width: 25rem; /*1rem = 16px*/
+    margin: 1rem auto;
+    background-color: #fff;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /*like store*/
+    background-color: salmon;
+    color: #fff;
+    padding: 0.25rem;
+}
+
+header section {
+    justify-self: start; /*venstre poeng*/
+}
+
+header section:last-child {
+    justify-self: end;; /*høyre highscore*/
+}
+
+header label {
+    font-weight: 300;
+}
+
+header p {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+main {
+    position: relative;
+    height: 25rem;
+    background-color: lightgreen;
+}
+
+#divRegnestykke {
+    position: absolute;
+    font-weight: 500;
+    color: #888;
+    background-color: blanchedalmond;
+    width: 12rem;
+    height: 4rem;
+    padding: 1rem;
+    font-size: 2rem;
+    left: calc(50% - 6rem);
+}
+
+footer input {
+    width: 100%;
+    font-size: 2rem;
+    padding: 0.5rem;
+    text-align: center;
+    background-color: pink;
+}
+
+footer input:focus {
+    outline: none;
+}
+
+#btnPlay {
+    width: 100%;
+    padding: 0.5rem;
+    text-align: center;
+    font-size: 1.25rem;
+}

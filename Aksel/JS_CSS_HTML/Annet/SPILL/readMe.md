@@ -1,1 +1,0 @@
-I have made all this from looking at courses on: https://scrimba.com/learn/kursiwebprogrammering
