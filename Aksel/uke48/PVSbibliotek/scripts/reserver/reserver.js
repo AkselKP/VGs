@@ -14,10 +14,12 @@ const btnBekreft = document.querySelector("#btnBekreft")
 const btnNullstill = document.querySelector("#btnNullstill")
 
 //Combobox
-//
-
 var e = document.getElementById("combo")
 //var strUser = e.options[e.selectedIndex].text
+
+function resetCombo() {
+    bokDiv.innerHTML = "<p id='del1'>Du har ikke valgt en bok</p>"
+}
 
 function bok() {
     if (combo.value == "velgBok") {

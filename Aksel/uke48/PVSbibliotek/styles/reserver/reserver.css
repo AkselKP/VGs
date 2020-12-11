@@ -46,6 +46,11 @@ legend {
     font-weight: 550;
 }  
 
+#btnBekreft a {
+    text-decoration: none;
+    color: black;
+}
+
 @media only screen and (max-width: 760px) {
     #bokDiv {
         display: hidden;

@@ -5,16 +5,16 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link rel="stylesheet" href="styles/sider.css">
-        <link rel="stylesheet" href="styles/omoss/omOss.css">
         <link rel="icon" href="bilder/fylkesskjold.png">
+        <link rel="stylesheet" href="styles/ticket/ticket.css">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <title>Om oss</title>
+        <title>Billett</title>
     </head>
     <body>
         <header>
             <nav>
                <a href="index.html"><i class="material-icons tilbake">keyboard_backspace</i></a>
-               <h1 class="overskrift omOss">Om oss</h1>
+               <h1 class="overskrift opningstider">Billett</h1>
                <div id="mySidebar" class="sidebar">
                     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                         <a href="opningstider.html">
@@ -39,17 +39,28 @@
             </nav>
         </header>
         <main>
-            <div class="container">
-                <article class="artikler loop">
-                    <h2 class="overskrift omOss2">Om Oss</h2>
-                    <video autoplay loop>
-                        <source src="videoer/porsVGS.mp4" type="video/mp4">
-                        <source src="videoer/porsVGS.ogg" type="video/ogg">
-                        Din søkemotor støtter ikke video-taggen.
-                    </video>
-                    <p>Hei på deg din lille skjei!</p>
-                </article>
-            </div>
+            <section>
+                <h1>Din billett (WIP)</h1>
+                <h2 class="overskrift personinfo">Personinfo</h2>
+                <p class="skrift personinfo"> Fornavn: Aksel <br>
+                    Etternavn: Pleym <br>
+                    Alder: 16 <br>
+                </p>
+                <h2 class="overskrift bok">Valgt bok</h2>
+                <p class="skrift bok"> 
+                   Peppa Gris
+                </p>
+                <h2 class="overskrift personinfo">Lånetid</h2>
+                <p class="skrift personinfo">
+                        <input type="radio" id="dager30" name="bokVarighet" value="30">
+                        <label for="30d">30 dager</label><br>
+                        <input type="radio" id="dager60" name="bokVarighet" value="60" checked="checked">
+                        <label for="30d">60 dager</label><br>
+                        <input type="radio" id="dager90" name="bokVarighet" value="90">
+                        <label for="30d">90 dager</label>  
+                </p>
+                <h3 class="overskrift takkMelding">Takk for at du låner bøker hos oss!</h3>
+            </section>
         </main>
         <footer>
                 <div class="besoksadresse">

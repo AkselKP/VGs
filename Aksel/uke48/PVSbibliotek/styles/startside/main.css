@@ -109,7 +109,6 @@ main {
     padding: 5px;
     height: 420px;
     width: 86.2%;
-    left: 70px;
 }
 
 .hovedside img {
@@ -134,6 +133,11 @@ main {
     justify-content: space-between;
 }
 
+.test {
+    display: flex;
+    justify-content: center;
+}
+
 .tjenesterOgAnbefalinger h3 {
     text-align: center;
 }
@@ -147,6 +151,13 @@ main {
     color: #666666;
 }
 
+.container {
+    display: flex;
+	justify-content: center;
+	min-width: 100%;
+	max-width: 100%;
+}
+
 .artikler  {
     position: relative;
     float: left;
@@ -156,7 +167,7 @@ main {
     width: 25%;
     min-width: 250px;
     padding: 10px;
-    transform: translateX(15%); /*Finn en bedre måte å sentere artiklene?*/
+   /* transform: translateX(15%); /*Finn en bedre måte å sentere artiklene?*/
 }
 
 .artikler:hover {
@@ -184,14 +195,6 @@ main {
     color: #4d4d4d;    
     font-size: 14px;
     margin-top: 0;
-}
-
-footer {
-    background-color: #4d4d4d;
-    color: #eee;
-    position: fixed;
-    bottom: 0;
-    width: 100%; 
 }
 
 .sidebar {
@@ -234,21 +237,50 @@ footer {
   }
 
   
+footer {
+    position: relative;
+    bottom: 0;
+	display: flex;
+	justify-content: center;
+	min-width: 100.3%;
+	max-width: 100%;
+	color: white;
+	margin-top: 30px;
+    background-color: #404040;
+}
+
+footer h2 {
+    text-shadow: 2px 2px gray;
+}
+
+.besoksadresse {
+	float: left;
+	padding: 50px;
+}
+
+.postadresse {
+	float: left;
+	padding: 50px;
+}
+
+.tlfogepost {
+	float: left;
+	padding: 50px;
+}
+
+  
 @media only screen and (max-width: 900px) {
     #velkommen {
         width: 400px;
-        transform: translateX(-25%);
     }
     .artikler{
         width: 400px;
-        transform: translateX(-30%);
     }
     .hovedside {
         width: 400px;
-        transform: translateX(-42.5%);
+
     }
     .hovedside img {
-        transform: translateX(17%);
         float: left;
     }
     .navItems {

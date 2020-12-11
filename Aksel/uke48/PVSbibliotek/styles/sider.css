@@ -114,6 +114,44 @@ i.tilbake:hover {
     padding: 16px;
   }
 
+  .container {
+    display: flex;
+	justify-content: center;
+	min-width: 100%;
+	max-width: 100%;
+}
+
+  footer {
+    position: relative;
+    bottom: 0;
+	display: flex;
+	justify-content: center;
+	min-width: 100.3%;
+	max-width: 100%;
+	color: white;
+	margin-top: 30px;
+	background-color: #404040;
+}
+
+footer h2 {
+    text-shadow: 2px 2px gray;
+}
+
+.besoksadresse {
+	float: left;
+	padding: 50px;
+}
+
+.postadresse {
+	float: left;
+	padding: 50px;
+}
+
+.tlfogepost {
+	float: left;
+	padding: 50px;
+}
+
   @media screen and (max-width: 675px) {
     .overskrift {
         font-size: 32px;
