@@ -1,0 +1,136 @@
+* {
+    font-family: sans-serif;
+}
+
+html {
+    background-color: #eee;
+}
+
+body {
+    margin: 0;
+    width: 99.7%;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav {
+    width: 100%;
+    height: 13vh; /*Bedre metode for dette?*/
+    background-color: #0073e6;
+    padding: 2px;
+    color: #fff;
+}
+
+nav h1 {
+    text-align: center;
+    font-size: 56px;
+    margin-top: 15px;
+}
+
+i.tilbake {
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 56px;
+    position: absolute;
+}
+
+i.tilbake:hover {
+    color: #ccc;
+}
+
+.btnMer {
+    position: absolute;
+    right: 2%;
+    top: 4%;
+    background: none;
+    border: none;
+}
+
+.material-icons.mer:hover {
+    transform: scale(1.2);
+    color: #ccc;
+    transition: 0.2s;
+}
+
+.material-icons.mer {
+    color: #fff; 
+    font-size: 36px;
+}
+
+.annet {
+    font-size: 20px;
+    padding: 0;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 35px;
+    float: right;
+}
+
+.annet:hover {
+    color: #ccc;
+    border-bottom: 3px solid #ccc;
+    transition: 0.2s;
+}
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #0066cc;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidebar a:hover {
+    color: #ccc;
+  }
+  
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-right: 50px;
+  }
+
+  #main {
+    transition: margin-right .5s;
+    padding: 16px;
+  }
+
+  @media screen and (max-width: 675px) {
+    .overskrift {
+        font-size: 32px;
+        padding-top: 12px;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    .annet {
+        font-size: 16px;
+    }
+    i.tilbake {
+        padding-top: 12px;
+    }
+}
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }

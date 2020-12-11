@@ -3,30 +3,52 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="styles/startside/style.css">
+        <link rel="stylesheet" href="styles/startside/main.css">
         <link rel="icon" href="bilder/fylkesskjold.png">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <title>Porsgrunn Vidergående Bibliotek</title>
     </head>
     <body>
         <header>
-            <nav>
+            <nav id="nav">
                 <a href="index.html">
                 <img src="bilder/fylkesskjold.png" alt="bildet av en bok">
                 <h1 class="overskrift porsVgs">Porsgrunn vgs<br>bibliotek</h1>
                 </a>
                 <div class="navItems">
-                    <a href="">
+                    <a href="opningstider.html">
                         <h2 class="overskrift annet opningstider">Åpningstider</h2>
                     </a>
-                    <a href="">
+                    <a href="tjenester.html">
                         <h2 class="overskrift annet tjenester">Tjenester</h2>
                     </a>
-                    <a href="">
+                    <a href="arrangementer.html">
                         <h2 class="overskrift annet arrangementer">Arrangementer</h2>
                     </a> 
-                    <a href="">
+                    <a href="omOss.html">
                         <h2 class="overskrift annet om">Om oss</h2>
+                    </a>
+                </div>
+                <div id="mySidebar" class="sidebar">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                          <a href="opningstider.html">
+                        <h2 class="overskrift annet opningstider">Åpningstider</h2>
+                    </a>
+                    <a href="tjenester.html">
+                        <h2 class="overskrift annet tjenester">Tjenester</h2>
+                    </a>
+                    <a href="arrangementer.html">
+                        <h2 class="overskrift annet arrangementer">Arrangementer</h2>
                     </a> 
+                    <a href="omOss.html">
+                        <h2 class="overskrift annet om">Om oss</h2>
+                    </a>
+                    <a href="reserver.html">
+                        <h2 class="overskrift annet reserver">Reserver bok</h2>
+                    </a>
+                </div>
+                <div id="main">  
+                    <button class="btnMer"onclick="openNav()"><i class="material-icons mer">reorder</i></button>
                 </div>
             </nav>
         </header>
@@ -34,33 +56,46 @@
             <div id="velkommen">
                 <h1 id="hVelkommen">Velkommen til Porsgrunn vidergående bibliotek!</h1>
             </div>
+            <div class="container">
                 <article class="hovedside tjenesterOgAnbefalinger">
                     <img id="bibliotekBildeSor" src="bilder/bibliotek.png" alt="bilde av biblioteket">
                     <div class="tjenester">
-                        <h3 class="overskrift3 tjenester">Tjenester</h3>
+                        <h3 class="overskrift3 tjenester"><a href="tjenester.html">Tjenester</h3></a>
                         <ul>
-                            <li>hei</li>
+                            <li>hjelp til litteratursøking og til å finne gode, relevante kilder til oppgaven din</li><br>
+                            <li>veiledning til fordypningsemne og Extended essay</li><br>
+                            <li>råd når du skriver oppgave med tanke på problemstilling, oppbygging, kildebruk og utforming av litteraturliste</li><br>
+                            <li>bokprat og tips til gode bøker</li><br>
+                            <li>hjelp til printing, kjøp av kopier og kopibrikker</li>
                         </ul>
                     </div>
                     <div class="anbefalinger">
-                     <!--   <h3 class="overskrift3 anbefalinger">Anbefalinger</h3> -->
+                        <h3 class="overskrift3 anbefalinger">Anbefalinger</h3>
+                        <ul>
+                            <li>Eleanor Oliphant har det helt fint av Honeyman, Gail 11. juni 2020</li><br>
+                            <li>Perlefarmen av Marklund, Liza 5. juni 2019</li><br>
+                            <li>Slakteren i Liseleje av Riel, Ane 22. mai 2019</li><br>
+                            <li>Slagside av Sævareid, Heidi 21. mai 2019</li><br>
+                            <li>Hver morgen dyppet min søster brystene i isvann for å bli pen av Sortland, Bjørn 15. mai 2019</li>
+                        </ul>
                     </div>
                 </article>
                 <article class="artikler artikkel1">
                     <img src="bilder/rundBokhylle.jpg" alt="bilde av rund bokhylle" height="200" width="200">
                     <h3 class="artikell overskrift2">Reserver en bok</h3>    
                     <div class="dato">nov 26, 2020</div>
-                    <p>Hvis du ikke har muligheten til å låne en bok akkurat nå, kan du reservere en bok <a href="">her.</a></p>
+                    <p>Hvis du ikke har muligheten til å låne en bok akkurat nå, kan du reservere en bok <a href="reserver.html">her.</a></p>
                 </article>
                 <article class="artikler artikkel2">
                     <h3 class="artikkel overskrift2">artikkel 2</h3>    
                 </article>
                 <article class="artikler artikkel3">
                     <h3 class="artikell overskrift2">artikkel 3</h3>    
-                </article>   
+                </article>
+            </div>
         </main>
         <footer>
-
+          
         </footer>
         <script src="scripts/startside/script.js"></script>
     </body>

@@ -1,0 +1,55 @@
+p {
+    font-size: 16px;
+    margin-bottom: 0;
+    margin-left: 5px;
+}
+
+input {
+    margin: 5px;
+    font-size: 16px;
+}
+
+#combo {
+    font-size: 16px;
+    float: left;
+    margin-right: 10px;
+}
+
+button {
+    margin-left: 5px;
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+label {
+    font-size: 16px;
+}
+
+legend {
+    font-size: 18px;
+}
+
+#bokDiv {
+    padding-top: 2px;
+}
+
+#del1 {
+    margin: 0;
+    color: red;
+    float: left;
+    margin-right: 5px;
+}
+
+#del2 {
+    margin: 0;
+    color: green;
+    font-weight: 550;
+}  
+
+@media only screen and (max-width: 760px) {
+    #bokDiv {
+        display: hidden;
+        visibility: hidden;
+    }
+}
+
