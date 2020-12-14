@@ -127,6 +127,10 @@ main {
     float: left;
 }
 
+a {
+    cursor: pointer;
+}
+
 .hovedside .anbefalinger {
     width: 350px;
     float: left;

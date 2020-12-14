@@ -3,13 +3,14 @@
     margin: 20px;
     background: #fff;
     border: 2px solid lightgrey;
-    width: 60%;
+    width: 80%;
     min-width: 250px;
     padding: 10px;    
 }
 
 .artikler h2 {
     text-align: center;
+    font-size: 32px;
 }
 
 .artikker a{
