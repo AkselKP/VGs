@@ -21,6 +21,11 @@ function resetCombo() {
     bokDiv.innerHTML = "<p id='del1'>Du har ikke valgt en bok</p>"
 }
 
+//! HVORFOR FUNKER IKKE DETTE??????????
+btnBekreft.onclick = () => {
+    location.href = "ticket.html"
+}  
+
 function bok() {
     if (combo.value == "velgBok") {
         bokDiv.innerHTML = "<p id='del1'>Du har ikke valgt en bok</p>"

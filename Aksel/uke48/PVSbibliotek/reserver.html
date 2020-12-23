@@ -34,7 +34,7 @@
                     </a>
                 </div>
                 <div id="main">  
-                    <button class="btnMer"onclick="openNav()"><i class="material-icons mer">reorder</i></button>
+                    <button class="btnMer" onclick="openNav()"><i class="material-icons mer">reorder</i></button>
                 </div>
             </nav>
         </header>
@@ -66,13 +66,13 @@
                 <fieldset>
                         <legend>Hvor lenge vil du låne boken?</legend>
                         <input type="radio" id="dager30" name="bokVarighet" value="30">
-                        <label for="30d">30 dager</label><br>
+                        <label for="dager30">30 dager</label><br>
                         <input type="radio" id="dager60" name="bokVarighet" value="60">
-                        <label for="30d">60 dager</label><br>
+                        <label for="dager60">60 dager</label><br>
                         <input type="radio" id="dager90" name="bokVarighet" value="90">
-                        <label for="30d">90 dager</label>     
+                        <label for="dager90">90 dager</label>     
                 </fieldset>
-                <button id="btnBekreft"><a href="ticket.html">Bekreft</a></button>
+                <button id="btnBekreft"><a href="ticket.html">Bekreft</a></button> <!--Validatoren liker ikke et a-element inni button-->
                 <input type="reset" id="btnNullstill" onclick="resetCombo()">
             </form>
         </main>
@@ -98,6 +98,9 @@
             
                     <h2>E-post</h2>
                     <p>porsgrunn.vgs@vtfk.no <br>eDialog - <br>send sikker digital post</p>
+                </div>
+                <div class="disclaimer">
+                    <p>Skoleprosjekt<br>Aksel Pleym</p>
                 </div> 
             </footer>
         <script src="scripts/sider.js"></script>

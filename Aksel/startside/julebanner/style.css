@@ -1,0 +1,99 @@
+* {
+    font-family: sans-serif;
+    color: #fff;
+}
+
+html {
+    background-color: #222629;
+    overflow: hidden;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+img {
+   width: 1400px;
+   height: 500px;
+   padding: 0;
+   margin: 0;
+   border: 5px inset #464d53;
+   border-radius: 5px;
+   margin-top: 30px;
+}
+
+#txtDiv {
+    padding: 0;
+    margin-top: 40px;
+    margin-left: 20px;
+    height: 630px;
+    width: 1480px;
+}
+
+@keyframes test {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.fade-in {
+    animation: test 1s ease;
+}
+
+#txtDiv:hover {
+    transform: scale(1.05);
+    transition: 1s;
+}
+
+#txtDiv p {
+    font-weight: bolder;
+    font-size: 32px;
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    margin: 0;
+}
+
+#del1 {
+    position: relative;
+    top: -65%;
+}
+
+ #del2 {
+    position: relative;
+    right: 28%;
+    top: -65%;
+}
+
+img:hover {
+    border: 4px outset slategrey;
+    transition: 1s;
+    cursor: pointer;
+}
+
+button {
+    background-color: transparent;
+    border: 0;
+}
+
+button:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+    transition: 0.4s;
+    border-radius: 5%;
+}
+
+#controls {
+    position: relative;
+    top: -10%;
+}
+
+i.material-icons {
+    font-size: 56px;
+}
+

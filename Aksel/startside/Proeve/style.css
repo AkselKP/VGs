@@ -1,0 +1,28 @@
+* {
+    font-family: sans-serif;
+}
+
+html {
+    background-image: url(lol.jpg);
+    background-size: 120% 200%;
+}
+
+#btnOk {
+    font-size: 32px;
+    margin: 20px;
+    color: red;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+h3 {
+    color: red;
+}
+
+
+button:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    border: 2px solid black;
+
+}

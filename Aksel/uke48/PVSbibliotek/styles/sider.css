@@ -19,6 +19,7 @@ a {
 nav {
     width: 100%;
     height: 13vh; /*Bedre metode for dette?*/
+    min-height: 80px;
     background-color: #0073e6;
     padding: 2px;
     color: #fff;
@@ -121,10 +122,9 @@ i.tilbake:hover {
 	max-width: 100%;
 }
 
-  footer {
-    position: relative;
-    bottom: 0;
-	display: flex;
+footer {
+  position: relative;
+  bottom: -100px;
 	justify-content: center;
 	min-width: 100.3%;
 	max-width: 100%;
@@ -138,24 +138,30 @@ footer h2 {
 }
 
 .besoksadresse {
-	float: left;
 	padding: 50px;
 }
 
 .postadresse {
-	float: left;
 	padding: 50px;
 }
 
 .tlfogepost {
-	float: left;
 	padding: 50px;
+}
+.disclaimer {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 18px;
 }
 
   @media screen and (max-width: 675px) {
     .overskrift {
         font-size: 32px;
         padding-top: 12px;
+    }
+    nav {
+      height: 8vh;
     }
   }
 
@@ -164,8 +170,39 @@ footer h2 {
         font-size: 16px;
     }
     i.tilbake {
-        padding-top: 12px;
+        padding-top: 18px;
     }
+    .btnMer {
+      position: absolute;
+      top: 3.2%;
+      right: 2%;
+      background: none;
+      border: none;
+    }
+}
+
+@media only screen and (min-width: 1550px) { 
+  nav {height: 10vh}
+  i.tilbake {padding-top: 20px;}
+  .btnMer {
+    position: absolute;
+    top: 3.3%;
+    right: 2%;
+    background: none;
+    border: none;
+  }
+}
+
+@media only screen and (max-width: 800px) { 
+  footer {
+    background-color: #404040;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  footer {
+      display: flex;
+  }
 }
   /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
   @media screen and (max-height: 450px) {
