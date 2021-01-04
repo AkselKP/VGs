@@ -129,6 +129,16 @@ main {
     float: left;
 }
 
+.bredBilde {
+    width: 270px;
+    height: 200px;
+}
+
+.tynnBilde {
+    width: 200px;
+    height: 200px;
+}
+
 a {
     cursor: pointer;
 }
@@ -138,7 +148,7 @@ a {
 }
 
 .hovedside .anbefalinger ul {
-    padding-bottom: 50px;
+    padding-bottom: 65px;
 }
 
 .test {
@@ -181,17 +191,6 @@ a {
     border: 2px solid #999999;
     transition: 0.4s;
 }
-
-/*.artikkel1 a{
-    text-decoration: none;
-    font-weight: 550;
-}
-
-.artikkel1 img{
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-} */
 
 .artikler img {
     position: relative;
@@ -301,7 +300,8 @@ footer h2 {
 }
 @media only screen and (max-width: 1500px) {
     .artikler{
-        width: 305px;
+        width: 40%;
+        min-width: 305px;
         position: relative;
         left: 50%;
         transform: translateX(-50%);
@@ -321,14 +321,14 @@ footer h2 {
     #velkommen {
         position: relative;
         left: 50%;
-        transform: translateX(-50%);
+        transform: translateX(-50%); /*Finn en bedre måte for dette*/
         width: 360px;
         font-size: 14px;
-        top: -40px;
     }
     .hovedside {
         padding-right: 20px;
-        margin-left: 40px;
+        margin-left: 12px;
+        position: relative;
     }
     .hovedside img {
         float: left;
@@ -336,6 +336,10 @@ footer h2 {
         width: 100%;
         position: relative;
         left: 2%;
+    }
+    .artikler {
+        position: relative;
+        margin-left: 6px;
     }
     .navItems {
         display: hidden;
@@ -353,11 +357,19 @@ footer h2 {
     }
 }
 
-@media only screen and (max-width: 610px) {
-    #velkommen {
-        position: relative;
-        right: 55%;
+@media only screen and (max-width: 447px) {
+   /* #velkommen {
+        top: -140px;   
     }
+    .hovedside {
+        top: -110px;
+    }
+    .artikler {
+        top: -110px;
+    } 
+    
+    
+    */
 }
 
 @media only screen and (max-width: 1500px) { 

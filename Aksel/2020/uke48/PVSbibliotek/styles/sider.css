@@ -33,7 +33,7 @@ nav h1 {
 
 i.tilbake {
     padding-top: 20px;
-    padding-left: 20px;
+    padding-left: 14px;
     font-size: 56px;
     position: absolute;
 }
@@ -119,13 +119,13 @@ i.tilbake:hover {
     display: flex;
 	justify-content: center;
 	min-width: 100%;
-	max-width: 100%;
+	max-width: 100%; /*BRUK DETTE PÅ HOVEDSIDEN OG*/
 }
 
 footer {
-  position: relative;
-  bottom: -100px;
-	justify-content: center;
+    position: relative;
+    bottom: -100px;
+    justify-content: center;
 	min-width: 100.3%;
 	max-width: 100%;
 	color: white;
@@ -170,11 +170,11 @@ footer h2 {
         font-size: 16px;
     }
     i.tilbake {
-        padding-top: 18px;
+        padding-top: 17px;
     }
     .btnMer {
       position: absolute;
-      top: 3.2%;
+      top: 3.6%;
       right: 2%;
       background: none;
       border: none;

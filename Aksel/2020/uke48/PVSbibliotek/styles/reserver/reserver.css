@@ -56,5 +56,13 @@ legend {
         display: hidden;
         visibility: hidden;
     }
+    .overskrift {
+        margin-top: 19px;
+        font-size: 26px;
+    }
+    .btnMer {
+        top: 3%;
+    }
 }
+
 

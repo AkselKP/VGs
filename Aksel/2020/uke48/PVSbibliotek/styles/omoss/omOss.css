@@ -17,12 +17,6 @@
     text-decoration: none;
 }
 
-.artikler img{
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
 video {
     width: 80%;
     border: 4px double #ccc;
