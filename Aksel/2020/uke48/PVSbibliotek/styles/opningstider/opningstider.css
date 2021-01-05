@@ -1,4 +1,4 @@
-.arrangementer1 {
+.opningstider1 {
     position: relative;
     background: #fff;
     border: 2px solid lightgrey;
@@ -10,13 +10,35 @@
     margin: 20px;
 }
 
-.arrangementer1 h3{
+.opningstider1 h3{
     margin-top: 5px;
-    color: red;
-    font-size: 32px;
+    font-size: 34px;
     text-align: center;
     position: relative;
     top: 15px;
+}
+
+.opningstider1 img {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+}
+
+.container2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h4 {
+    font-size: 22px;
+    margin-bottom: 0;
+}
+
+p {
+    font-size: 18px;
+    line-height: 26px;
 }
 
 .container1 {
@@ -26,13 +48,11 @@
    max-width: 100%;
 }
 
+
 footer {
     bottom: -120px; /*Faenskap*/
 }
 
 @media only screen and (max-width: 500px) {
-    .overskrift {
-        margin-top: 17px;
-        font-size: 28px;
-    }
+  
 }

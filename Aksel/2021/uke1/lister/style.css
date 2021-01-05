@@ -1,0 +1,29 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+background-color: #eee;
+}
+
+html  {
+    text-align: center;
+}
+
+button {
+    font-size: 22px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+button:hover {
+    transform: scale(1.07);
+    border: 2px solid skyblue;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+h2 {
+    color: red;
+}

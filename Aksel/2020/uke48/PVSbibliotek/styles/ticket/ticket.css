@@ -5,10 +5,10 @@
 
 @keyframes slideIn {
     0% {
-        left: -60%;
+        left: -110%;
     }
     100% {
-        left: 50%;
+        left: 0%;
     }
 }
 
@@ -22,11 +22,16 @@ section {
     padding: 5px;
     margin: 10px;
     position: relative;
-    left: 50%;
+    /*left: 50%;
     top: -2%;
-    transform: translate(-50%, 2%);
+    transform: translate(-50%, 2%); */
     box-shadow: 0 0 15px 2px black;
     animation: slideIn 1.5s alternate;
+}
+
+main {
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -35,7 +40,7 @@ section h1, h3{
 }
 
 h2 {
-    font-size: 20px;
+    font-size: 24px;
     margin-left: 30px;
 }
 
@@ -47,5 +52,23 @@ p {
 h3 {
    margin-top: 50px;
    color: green;
-   font-size: 22px;
+   font-size: 24px;
+}
+
+@media only screen and (max-width: 700px) {
+    section {
+        width: 350px;
+        height: 550px;
+    }
+    h3 {
+        position: relative;
+        margin-top: 0px;
+        top: -15px;
+    }
+    h2 {
+        margin-top: 0px;
+    }
+    h1 {
+        margin-bottom: 0px;
+    }
 }

@@ -26,10 +26,11 @@ nav {
     color: #fff;
   /*  position: fixed;
     top: 0;
-    z-index: 2; */
+    z-index: 2;  */
 }
 
 .btnMer {
+    /*position: sticky;*/
     position: absolute;
     right: 5%;
     top: 5%;
@@ -93,10 +94,9 @@ nav h1 {
     margin-right: 40px; 
 }
 
-#velkommen {
+.hVelkommen {
     text-align: center;
 }
-
 main {
     margin: 50px;
     margin-right: 150px;
@@ -313,17 +313,13 @@ footer h2 {
         height: 90px;
         width: 100%;
     }
-    #hVelkommen {
-        top: 0;
-        margin: 0;
-        padding: 0;
-    }
-    #velkommen {
+    .hVelkommen {
         position: relative;
-        left: 50%;
-        transform: translateX(-50%); /*Finn en bedre måte for dette*/
-        width: 360px;
-        font-size: 14px;
+        width: 380px;
+        font-size: 28px;
+        margin: 0;
+        padding-bottom: 20px;
+        right: 170%;
     }
     .hovedside {
         padding-right: 20px;
