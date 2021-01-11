@@ -5,7 +5,7 @@
     border: 2px solid lightgrey;
     width: 80%;
     min-width: 320px;
-    padding: 10px;    
+    padding: 10px;  
 }
 
 .artikler h2 {
@@ -24,9 +24,109 @@ video {
     position: relative;
 }
 
+.viktig {
+    font-size: 22px;
+    color: red;
+    font-weight: bold;
+    background-color: #eee;
+    border: 2px solid lightgrey;
+    width: 78.431%;
+    position: relative;
+    left: 10%;
+    margin-top: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.uviktig {
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+}
+
+.profil {
+    font-size: 22px;
+    margin-left: 40px;
+    margin-right: 40px;
+    float: left;
+}
+
+#omMeg{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.info {
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 30px;
+    margin-left: 10px; /*Blir 50px totalt*/
+    margin-right: 10px;
+}
+
+.kompetansemol {
+    font-size: 22px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#kompetanse {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.tekst {
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 30px;
+    margin-left: 10px; /*Blir 50px totalt*/
+    margin-right: 10px;
+}
+
+.tekst a {
+    color: rgb(45, 46, 135);
+    font-weight: bold;
+
+}
+
+.tekst a:hover {
+    color: rgb(45, 46, 255);
+    transition: 0.2s;
+}
+
+.bilde {
+    margin-top: 55px;
+    position: relative;
+    left: 5%;
+}
+
+.bilde img {
+    border: 4px double lightgrey;
+}
+
+
 @media only screen and (max-width: 600px) {
   video {
     width: 95%;
     left: 1%;
+  }
+  .viktig {
+      width: 91.548%; /*nøyaktig lik lengde som video*/
+      left: 1%;
+  }
+  .uviktig {
+      margin-left: 10px;
+      margin-right: 10px;
+  }
+  .overskrift {
+      margin-top: 16px;
+  }
+  .bilde {
+    left: 13%;
+  }
+  .bilde img {
+      height: 300px;
   }
 }

@@ -32,7 +32,7 @@ footer {
 
 @media only screen and (max-width: 500px) {
     .overskrift {
-        margin-top: 17px;
+        margin-top: 15px;
         font-size: 28px;
     }
 }

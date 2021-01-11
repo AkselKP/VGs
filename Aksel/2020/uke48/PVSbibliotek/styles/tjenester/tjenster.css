@@ -31,10 +31,27 @@
     line-height: 30px;
 }
 
+ul li {
+    margin-bottom: 30px; 
+}
+
 footer {
     bottom: -120px; /*Faenskap*/
 }
 
+ul a {
+    font-weight: bold;
+    color: rgb(45, 46, 135);
+    text-decoration: none;
+}
+
+ul a:hover {
+    color: rgb(45, 46, 255);
+    transition: 0.2s;
+}
+
 @media only screen and (max-width: 500px) {
-  
+  .overskrift {
+      margin-top: 15px;
+  }
 }

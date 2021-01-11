@@ -1,0 +1,15 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+
+img {
+    margin-top: 10px;
+    border: 5px double slategray;
+}

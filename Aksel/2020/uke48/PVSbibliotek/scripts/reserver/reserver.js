@@ -22,8 +22,9 @@ function resetCombo() {
 }
 
 //! HVORFOR FUNKER IKKE DETTE??????????
-btnBekreft.onclick = () => {
-    location.href = "ticket.html"
+function byttVindu() {
+    window.location = "ticket.html"
+    
 }  
 
 function bok() {

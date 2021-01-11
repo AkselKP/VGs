@@ -6,7 +6,7 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link rel="stylesheet" href="styles/sider.css">
         <link rel="stylesheet" href="styles/reserver/reserver.css">
-        <link rel="icon" href="bilder/fylkesskjold.png">
+        <link rel="icon" href="bilder/favicon.svg">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <title>Reserver en bok</title>
     </head>
@@ -72,7 +72,7 @@
                         <input type="radio" id="dager90" name="bokVarighet" value="90">
                         <label for="dager90">90 dager</label>     
                 </fieldset>
-                <button id="btnBekreft"><a href="ticket.html">Bekreft</a></button> <!--Validatoren liker ikke et a-element inni button-->
+                <button id="btnBekreft"><a href="ticket.html">Bekreft</a></button> <!--Validatoren liker ikke et a-element inni button, men siden funksjonen i JS som skal bytte html-side ikke vil funke har jeg bare latt a-elementet bli siden det ikke ser ut til å gjøre noe skade.-->
                 <input type="reset" id="btnNullstill" onclick="resetCombo()">
             </form>
         </main>
@@ -100,7 +100,7 @@
                     <p>porsgrunn.vgs@vtfk.no <br>eDialog - <br>send sikker digital post</p>
                 </div>
                 <div class="disclaimer">
-                    <p>Skoleprosjekt<br>Aksel Pleym</p>
+                    <p>Skoleprosjekt<br><button id="btnOmMeg">Aksel Pleym</button></p>
                 </div> 
             </footer>
         <script src="scripts/sider.js"></script>

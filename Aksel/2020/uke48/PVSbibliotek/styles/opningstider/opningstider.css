@@ -22,7 +22,7 @@
     position: relative;
     left: 50%;
     transform: translateX(-50%);
-    width: 80%;
+    width: 70%;
 }
 
 .container2 {
@@ -54,5 +54,7 @@ footer {
 }
 
 @media only screen and (max-width: 500px) {
-  
+  .overskrift {
+      margin-top: 15px;
+  }
 }

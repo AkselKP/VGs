@@ -6,7 +6,7 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link rel="stylesheet" href="styles/sider.css">
         <link rel="stylesheet" href="styles/omoss/omOss.css">
-        <link rel="icon" href="bilder/fylkesskjold.png">
+        <link rel="icon" href="bilder/favicon.svg">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <title>Om oss</title>
     </head>
@@ -42,12 +42,34 @@
             <div class="container">
                 <article class="artikler loop">
                     <h2 class="overskrift omOss2">Om oss</h2>
-                    <video autoplay loop> <!--autoplay-->
+                    <video autoplay loop controls> <!--autoplay-->
                         <source src="videoer/porsVGS.mp4" type="video/mp4">
                         <source src="videoer/porsVGS.ogg" type="video/ogg">
                         Din søkemotor støtter ikke video-taggen.
                     </video>
-                    <p>Hei på deg din lille skjei!<br>hvor du forteller om bakgrunnen for sidene og litt om deg selv. På "Om-siden" skal det også tydelig fremkomme hvilke kompetansemål fra faget du har jobba me</p>
+                    <p class="viktig">Denne hjemmesiden er ikke den offisielle hjemmesiden til Porsgrunn VGs Bibliotek!!!</p>
+                    <p class="uviktig">
+                        Sidene er laget som en oppgave i faget Konseptuvikling og programmering. De er laget av Aksel Pleym som er en elev på Informasjonsteknologi og Medieproduksjon på Porsgrunn Vidergående skole.</p>
+                    <div class="profil">
+                        <h3 id="omMeg">Om meg</h3>
+                        <p class="omMeg info">
+                            <b>Fult navn:</b> Aksel Kragset Pleym <br>
+                            <b>Alder:</b> 16 <br>
+                            <b>Interresser:</b> Håndball - Gaming - Teknologi - Programmering <br>
+                            <b>Elev ved:</b> Porsgrunn VGS - Informasjonsteknologi og Medieproduksjon<br>
+                            <b>Tlf:</b> 466 52 158<br>
+                            <b>Email:</b> akselkpp@gmail.com
+                        </p>
+                    </div>
+                    <div class="bilde">
+                        <img src="bilder/aksel.jpg" alt="midlertidig bildet av Aksel Pleym" height=200>
+                    </div>
+                    <div class="kompetansemol">
+                        <h3 id="kompetanse">Kompetansemål</h3>
+                        <p class="kompetansemol tekst">
+                            Kompetansemålene for konseptutvikling og programmering kan du finne <a href="https://www.udir.no/lk20/ikm01-01/kompetansemaal-og-vurdering/kv236">her.</a>
+                        </p>
+                    </div>
                 </article>
             </div>
         </main>
@@ -75,7 +97,7 @@
                     <p>porsgrunn.vgs@vtfk.no <br>eDialog - <br>send sikker digital post</p>
                 </div>
                 <div class="disclaimer">
-                    <p>Skoleprosjekt<br>Aksel Pleym</p>
+                    <p>Skoleprosjekt<br><button id="btnOmMeg">Aksel Pleym</button></p>
                 </div> 
             </footer>
 

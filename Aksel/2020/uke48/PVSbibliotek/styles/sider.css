@@ -28,12 +28,12 @@ nav {
 nav h1 {
     text-align: center;
     font-size: 56px;
-    margin-top: 15px;
+    margin-top: 11px;
 }
 
 i.tilbake {
-    padding-top: 20px;
-    padding-left: 14px;
+    padding-top: 18px;
+    padding-left: 10px;
     font-size: 56px;
     position: absolute;
 }
@@ -45,14 +45,16 @@ i.tilbake:hover {
 .btnMer {
     position: absolute;
     right: 2%;
-    top: 4%;
+    top: 4.3%;
     background: none;
     border: none;
+    cursor: pointer;
 }
 
 .material-icons.mer:hover {
     transform: scale(1.2);
-    color: #ccc;
+    background-color: rgba(155, 155, 155, 0.6);
+    color: #fff;
     transition: 0.2s;
 }
 
@@ -155,14 +157,40 @@ footer h2 {
     font-size: 18px;
 }
 
+.disclaimer button {
+    margin: 0;
+    padding: 0;
+    background: none;
+    border: none;
+    color: rgb(116, 234, 255);
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: 1px solid rgb(116,234,255);
+}
+
+.disclaimer button:hover {
+    color: blue;
+    transform: scale(1.05);
+    border-bottom: 2px solid blue;
+    transition: 0.2s;
+}
+
   @media screen and (max-width: 675px) {
     .overskrift {
         font-size: 32px;
         padding-top: 12px;
     }
     nav {
-      height: 8vh;
+      height: 90px;
     }
+    .btnMer {
+        position: absolute;
+        top: 25px;
+        right: 2%;
+        background: none;
+        border: none;
+      }
   }
 
   @media screen and (max-width: 500px) {
@@ -171,13 +199,6 @@ footer h2 {
     }
     i.tilbake {
         padding-top: 17px;
-    }
-    .btnMer {
-      position: absolute;
-      top: 3.6%;
-      right: 2%;
-      background: none;
-      border: none;
     }
 }
 
